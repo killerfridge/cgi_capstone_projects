@@ -1,0 +1,8 @@
+specialty_id,specialty_name,weekly_capacity,lead_consultant_code
+TFC-100,General Surgery,45,CONS-1042
+TFC-110,Trauma & Orthopaedics,60,CONS-2190
+TFC-120,"ENT (Ear, Nose & Throat)",35,CONS-0881
+TFC-130,Ophthalmology,80,CONS-4412
+TFC-300,General Internal Medicine,70,CONS-3098
+TFC-320,Cardiology,40,CONS-1554
+TFC-502,Gynaecology,50,CONS-6721

@@ -1,0 +1,401 @@
+attendance_id,patient_pseudo_id,arrival_timestamp,triage_category,chief_complaint,required_specialty,admission_required,decision_to_admit_timestamp,allocated_bed_id,disposition,discharge_timestamp,is_breached
+ED-2026-00001,9990239223,2026-08-31T15:21,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-31T18:08,False
+ED-2026-00002,9992352590,2026-08-31T10:57,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T13:32,False
+ED-2026-00003,9999935966,2026-08-30T22:03,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T01:11,False
+ED-2026-00004,9998569192,2026-08-31T14:35,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T17:21,BED-EAU-16,Admitted,,True
+ED-2026-00005,9999653286,2026-08-30T08:38,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T10:59,False
+ED-2026-00006,9993847437,2026-08-30T15:52,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T19:01,False
+ED-2026-00007,9991324887,2026-08-30T22:08,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-31T01:32,False
+ED-2026-00008,9995308487,2026-08-30T20:41,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T23:15,False
+ED-2026-00009,9993345571,2026-08-29T21:26,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T01:00,False
+ED-2026-00010,9999507808,2026-08-30T05:00,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T08:45,False
+ED-2026-00011,9995689715,2026-08-29T23:54,Non-Urgent (Blue),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T03:19,False
+ED-2026-00012,9991228942,2026-08-30T12:49,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T14:07,BED-TRAUMA-18,Admitted,,True
+ED-2026-00013,9996084833,2026-08-31T00:00,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T03:26,False
+ED-2026-00014,9995846675,2026-08-31T07:51,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T11:20,False
+ED-2026-00015,9999272770,2026-08-30T12:30,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T14:42,False
+ED-2026-00016,9992109114,2026-08-31T01:35,Immediate (Red),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T03:47,False
+ED-2026-00017,9997480554,2026-08-30T03:50,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T05:31,BED-SURG-M-12,Admitted,,True
+ED-2026-00018,9999004008,2026-08-30T23:51,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,True,2026-08-31T01:02,BED-SURG-M-18,Admitted,,True
+ED-2026-00019,9990385874,2026-08-30T05:44,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T08:03,False
+ED-2026-00020,9997121260,2026-08-30T22:32,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T01:35,False
+ED-2026-00021,9999143334,2026-08-31T08:00,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T11:55,False
+ED-2026-00022,9999678262,2026-08-30T07:05,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T09:20,False
+ED-2026-00023,9996086305,2026-08-29T21:34,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T01:17,False
+ED-2026-00024,9998879043,2026-08-31T06:09,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T08:08,BED-TRAUMA-16,Admitted,,True
+ED-2026-00025,9995848341,2026-08-30T18:28,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-30T21:43,False
+ED-2026-00026,9993817864,2026-08-31T09:19,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T11:29,BED-EAU-12,Admitted,,True
+ED-2026-00027,9996299252,2026-08-30T17:24,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-30T20:03,False
+ED-2026-00028,9990135401,2026-08-30T15:03,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T16:37,BED-CARD-12,Admitted,,True
+ED-2026-00029,9993213063,2026-08-29T21:53,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T00:45,BED-AMU-19,Admitted,,True
+ED-2026-00030,9990755981,2026-08-30T11:24,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T14:53,False
+ED-2026-00031,9992673109,2026-08-31T13:08,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T14:49,BED-SURG-F-02,Admitted,,True
+ED-2026-00032,9992177896,2026-08-30T16:30,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T17:43,BED-SURG-M-16,Admitted,,True
+ED-2026-00033,9990235317,2026-08-30T15:49,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T16:58,BED-SURG-F-18,Admitted,,True
+ED-2026-00034,9996742008,2026-08-30T10:29,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T11:30,BED-AMU-24,Admitted,,True
+ED-2026-00035,9994076329,2026-08-29T20:58,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-29T22:31,BED-EAU-11,Admitted,,True
+ED-2026-00036,9996112802,2026-08-31T18:04,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Under Assessment,,False
+ED-2026-00037,9996406164,2026-08-31T01:50,Non-Urgent (Blue),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T02:59,BED-CARD-10,Admitted,,True
+ED-2026-00038,9999438148,2026-08-31T05:35,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T07:07,BED-SURG-F-03,Admitted,,True
+ED-2026-00039,9991129324,2026-08-29T22:53,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T00:35,BED-CARD-06,Admitted,,True
+ED-2026-00040,9996441644,2026-08-31T07:00,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T10:21,False
+ED-2026-00041,9995114062,2026-08-30T17:13,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T20:32,False
+ED-2026-00042,9991718133,2026-08-31T17:21,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T19:17,,Awaiting Bed,,False
+ED-2026-00043,9992496266,2026-08-30T16:09,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T18:05,BED-EAU-01,Admitted,,True
+ED-2026-00044,9996578593,2026-08-31T04:26,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T05:50,BED-SURG-F-04,Admitted,,True
+ED-2026-00045,9995660776,2026-08-30T00:11,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T03:01,False
+ED-2026-00046,9998690749,2026-08-31T05:00,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T07:44,False
+ED-2026-00047,9998297001,2026-08-30T01:22,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:33,False
+ED-2026-00048,9997370244,2026-08-29T20:56,Immediate (Red),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-29T23:06,False
+ED-2026-00049,9996935876,2026-08-30T18:19,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T19:54,BED-CARD-01,Admitted,,True
+ED-2026-00050,9994698001,2026-08-29T21:58,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T00:33,False
+ED-2026-00051,9990201536,2026-08-30T22:03,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T00:46,False
+ED-2026-00052,9995469251,2026-08-31T09:35,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T12:50,False
+ED-2026-00053,9992202262,2026-08-31T05:29,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T06:50,BED-AMU-14,Admitted,,True
+ED-2026-00054,9992391901,2026-08-30T08:03,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T10:09,BED-TRAUMA-02,Admitted,,True
+ED-2026-00055,9991682678,2026-08-30T09:43,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T11:17,BED-TRAUMA-06,Admitted,,True
+ED-2026-00056,9994210289,2026-08-31T17:14,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T18:22,,Awaiting Bed,,False
+ED-2026-00057,9992353570,2026-08-29T20:23,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-29T21:33,BED-SURG-F-13,Admitted,,True
+ED-2026-00058,9990209480,2026-08-31T00:46,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T03:09,BED-SURG-M-02,Admitted,,True
+ED-2026-00059,9998824699,2026-08-31T11:10,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T13:47,False
+ED-2026-00060,9992244666,2026-08-30T15:48,Standard (Green),Chest Pain,Cardiology,True,2026-08-30T17:37,BED-TRAUMA-07,Admitted,,True
+ED-2026-00061,9999707432,2026-08-30T13:23,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T16:28,False
+ED-2026-00062,9992384689,2026-08-30T06:48,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T08:20,BED-AMU-01,Admitted,,True
+ED-2026-00063,9992506717,2026-08-30T04:11,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T06:59,BED-EAU-05,Admitted,,True
+ED-2026-00064,9990581223,2026-08-29T21:18,Immediate (Red),Chest Pain,Cardiology,True,2026-08-30T00:02,BED-AMU-07,Admitted,,True
+ED-2026-00065,9996659666,2026-08-30T20:44,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T00:15,False
+ED-2026-00066,9992154683,2026-08-31T17:42,Standard (Green),Chest Pain,Cardiology,False,,,Under Assessment,,False
+ED-2026-00067,9998825105,2026-08-31T11:52,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T12:54,BED-AMU-18,Admitted,,True
+ED-2026-00068,9997265599,2026-08-30T13:32,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T17:10,False
+ED-2026-00069,9998510856,2026-08-31T15:21,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T18:59,False
+ED-2026-00070,9993480908,2026-08-31T07:35,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T08:35,BED-CARD-02,Admitted,,True
+ED-2026-00071,9998390737,2026-08-30T14:12,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T15:52,BED-EAU-08,Admitted,,True
+ED-2026-00072,9999083986,2026-08-30T06:37,Very Urgent (Orange),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T09:57,False
+ED-2026-00073,9995415585,2026-08-29T22:30,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T01:20,BED-AMU-13,Admitted,,True
+ED-2026-00074,9993404837,2026-08-30T18:21,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T21:00,False
+ED-2026-00075,9994795538,2026-08-31T04:25,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T06:28,BED-SURG-F-10,Admitted,,True
+ED-2026-00076,9996925986,2026-08-31T04:58,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T07:11,BED-EAU-07,Admitted,,True
+ED-2026-00077,9991111204,2026-08-31T12:43,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T15:38,BED-TRAUMA-11,Admitted,,True
+ED-2026-00078,9990400822,2026-08-30T00:26,Non-Urgent (Blue),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T04:00,False
+ED-2026-00079,9991186689,2026-08-30T11:51,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T15:10,False
+ED-2026-00080,9999088775,2026-08-30T16:52,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T19:24,BED-EAU-02,Admitted,,True
+ED-2026-00081,9997584120,2026-08-30T21:43,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-30T22:54,BED-AMU-10,Admitted,,True
+ED-2026-00082,9990542139,2026-08-30T18:24,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T21:27,False
+ED-2026-00083,9997157133,2026-08-30T00:41,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T02:47,False
+ED-2026-00084,9995776502,2026-08-31T03:52,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T06:05,BED-AMU-22,Admitted,,True
+ED-2026-00085,9994525484,2026-08-31T19:52,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00086,9996079082,2026-08-30T05:33,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T08:00,False
+ED-2026-00087,9997666437,2026-08-30T16:54,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T18:42,BED-SURG-M-03,Admitted,,True
+ED-2026-00088,9995249081,2026-08-30T19:33,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T22:31,False
+ED-2026-00089,9993411124,2026-08-31T15:34,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T18:33,BED-SURG-F-07,Admitted,,True
+ED-2026-00090,9999723810,2026-08-30T01:41,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T03:00,BED-TRAUMA-20,Admitted,,True
+ED-2026-00091,9993441562,2026-08-31T04:01,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T07:36,False
+ED-2026-00092,9996171973,2026-08-31T02:41,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T06:30,False
+ED-2026-00093,9995312824,2026-08-31T07:14,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T09:26,False
+ED-2026-00094,9995357615,2026-08-30T11:10,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T13:43,False
+ED-2026-00095,9991159258,2026-08-29T22:47,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T02:33,False
+ED-2026-00096,9990899193,2026-08-31T17:03,Non-Urgent (Blue),Fever / Sepsis Alert,Acute Medicine,False,,,Under Assessment,,False
+ED-2026-00097,9992253746,2026-08-30T00:09,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T01:32,BED-AMU-20,Admitted,,True
+ED-2026-00098,9997117425,2026-08-30T08:39,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T11:40,False
+ED-2026-00099,9995756366,2026-08-31T10:25,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T13:35,False
+ED-2026-00100,9999820646,2026-08-30T22:26,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T01:16,False
+ED-2026-00101,9996349578,2026-08-31T09:22,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T11:26,BED-AMU-06,Admitted,,True
+ED-2026-00102,9996253198,2026-08-30T09:47,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T13:02,False
+ED-2026-00103,9997162625,2026-08-30T15:17,Standard (Green),Severe Abdominal Pain,General Surgery,True,2026-08-30T17:50,BED-AMU-04,Admitted,,True
+ED-2026-00104,9995397773,2026-08-31T12:11,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T14:48,BED-TRAUMA-13,Admitted,,True
+ED-2026-00105,9997876679,2026-08-30T05:18,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T08:14,BED-AMU-11,Admitted,,True
+ED-2026-00106,9992682698,2026-08-31T19:48,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00107,9991897623,2026-08-31T12:21,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T16:08,False
+ED-2026-00108,9995124386,2026-08-31T18:52,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T20:06,,Awaiting Bed,,False
+ED-2026-00109,9992286806,2026-08-31T10:23,Non-Urgent (Blue),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T13:58,False
+ED-2026-00110,9999532241,2026-08-30T20:52,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T00:11,False
+ED-2026-00111,9998309557,2026-08-30T03:44,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T05:12,BED-SURG-F-08,Admitted,,True
+ED-2026-00112,9990261059,2026-08-30T12:58,Immediate (Red),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T14:45,BED-TRAUMA-05,Admitted,,True
+ED-2026-00113,9995769409,2026-08-31T06:09,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T09:57,False
+ED-2026-00114,9998241634,2026-08-31T10:57,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T14:37,False
+ED-2026-00115,9998325803,2026-08-30T19:46,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T23:04,False
+ED-2026-00116,9995964163,2026-08-31T08:59,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T11:07,False
+ED-2026-00117,9996454258,2026-08-31T11:47,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,True,2026-08-31T13:45,BED-SURG-F-05,Admitted,,True
+ED-2026-00118,9990833427,2026-08-31T07:18,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T08:57,BED-TRAUMA-12,Admitted,,True
+ED-2026-00119,9995489422,2026-08-31T18:39,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00120,9990325987,2026-08-30T21:44,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T22:48,BED-TRAUMA-09,Admitted,,True
+ED-2026-00121,9995095440,2026-08-30T23:24,Immediate (Red),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T02:30,False
+ED-2026-00122,9993696870,2026-08-31T19:09,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T20:06,,Awaiting Bed,,False
+ED-2026-00123,9993493791,2026-08-30T05:33,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T08:01,BED-SURG-M-13,Admitted,,True
+ED-2026-00124,9993326941,2026-08-30T20:13,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T22:22,False
+ED-2026-00125,9996567141,2026-08-30T18:28,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T19:28,BED-SURG-F-14,Admitted,,True
+ED-2026-00126,9992350296,2026-08-30T16:03,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T18:32,BED-TRAUMA-19,Admitted,,True
+ED-2026-00127,9991015752,2026-08-30T18:17,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T21:14,BED-SURG-M-17,Admitted,,True
+ED-2026-00128,9992472510,2026-08-30T00:19,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T02:23,BED-AMU-02,Admitted,,True
+ED-2026-00129,9991873546,2026-08-30T16:26,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T19:13,False
+ED-2026-00130,9993659177,2026-08-30T03:14,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T04:43,BED-EAU-15,Admitted,,True
+ED-2026-00131,9990340145,2026-08-30T18:38,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T20:16,BED-CARD-11,Admitted,,True
+ED-2026-00132,9998600669,2026-08-30T13:00,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T15:46,BED-SURG-M-14,Admitted,,True
+ED-2026-00133,9991225269,2026-08-30T04:29,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T06:41,False
+ED-2026-00134,9993698598,2026-08-31T12:53,Immediate (Red),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T14:38,BED-EAU-13,Admitted,,True
+ED-2026-00135,9996191761,2026-08-31T19:31,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T20:06,,Awaiting Bed,,False
+ED-2026-00136,9992328568,2026-08-30T15:44,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T17:47,False
+ED-2026-00137,9992334037,2026-08-30T16:50,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T17:56,BED-EAU-14,Admitted,,True
+ED-2026-00138,9998920191,2026-08-31T13:02,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T15:26,False
+ED-2026-00139,9999368611,2026-08-29T20:06,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-29T23:12,False
+ED-2026-00140,9996525538,2026-08-31T13:29,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T14:57,BED-SURG-M-06,Admitted,,True
+ED-2026-00141,9997428080,2026-08-29T23:10,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T01:56,False
+ED-2026-00142,9995333929,2026-08-31T05:32,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T06:40,BED-SURG-F-01,Admitted,,True
+ED-2026-00143,9991560556,2026-08-30T13:17,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T15:24,BED-SURG-M-01,Admitted,,True
+ED-2026-00144,9992955287,2026-08-31T17:51,Non-Urgent (Blue),Chest Pain,Cardiology,False,,,Under Assessment,,False
+ED-2026-00145,9996020428,2026-08-30T01:55,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T04:58,False
+ED-2026-00146,9990833850,2026-08-30T22:47,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T01:34,BED-SURG-M-15,Admitted,,True
+ED-2026-00147,9992268581,2026-08-31T02:38,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T04:20,BED-SURG-M-04,Admitted,,True
+ED-2026-00148,9995318008,2026-08-31T03:04,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T05:07,False
+ED-2026-00149,9996817334,2026-08-30T09:39,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T12:35,False
+ED-2026-00150,9992391677,2026-08-31T06:01,Immediate (Red),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T08:12,BED-SURG-F-17,Admitted,,True
+ED-2026-00151,9997584430,2026-08-29T23:03,Very Urgent (Orange),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T02:25,False
+ED-2026-00152,9997280369,2026-08-30T07:27,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T10:17,False
+ED-2026-00153,9995754258,2026-08-30T11:57,Standard (Green),Severe Abdominal Pain,General Surgery,True,2026-08-30T13:35,BED-TRAUMA-14,Admitted,,True
+ED-2026-00154,9992968958,2026-08-30T21:01,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T23:09,BED-AMU-15,Admitted,,True
+ED-2026-00155,9994026313,2026-08-31T04:33,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T07:14,BED-SURG-F-06,Admitted,,True
+ED-2026-00156,9993664308,2026-08-30T10:56,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T13:43,False
+ED-2026-00157,9999604390,2026-08-31T17:49,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T19:45,,Awaiting Bed,,False
+ED-2026-00158,9994228102,2026-08-31T10:51,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T13:20,BED-SURG-M-05,Admitted,,True
+ED-2026-00159,9990879303,2026-08-30T05:32,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T07:44,False
+ED-2026-00160,9993948950,2026-08-31T08:37,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T11:31,BED-CARD-09,Admitted,,True
+ED-2026-00161,9991885676,2026-08-30T22:29,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T00:34,BED-TRAUMA-04,Admitted,,True
+ED-2026-00162,9994187996,2026-08-31T05:19,Non-Urgent (Blue),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T07:43,False
+ED-2026-00163,9994068148,2026-08-31T14:19,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T16:12,BED-TRAUMA-03,Admitted,,True
+ED-2026-00164,9991177558,2026-08-31T09:12,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T11:51,False
+ED-2026-00165,9990659559,2026-08-31T14:08,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-31T17:17,False
+ED-2026-00166,9991451560,2026-08-30T01:19,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T05:03,False
+ED-2026-00167,9990121524,2026-08-29T22:20,Immediate (Red),Severe Abdominal Pain,General Surgery,True,2026-08-29T23:29,BED-AMU-05,Admitted,,True
+ED-2026-00168,9990050902,2026-08-30T00:51,Non-Urgent (Blue),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:04,False
+ED-2026-00169,9996986705,2026-08-30T06:41,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T08:53,BED-CARD-03,Admitted,,True
+ED-2026-00170,9993672858,2026-08-30T18:16,Non-Urgent (Blue),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T21:55,False
+ED-2026-00171,9997841204,2026-08-30T15:03,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T16:17,BED-SURG-F-16,Admitted,,True
+ED-2026-00172,9996218090,2026-08-30T14:17,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-30T16:28,,Awaiting Bed,,True
+ED-2026-00173,9998029163,2026-08-30T15:54,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T18:23,False
+ED-2026-00174,9992956445,2026-08-30T12:35,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T15:24,,Awaiting Bed,,True
+ED-2026-00175,9997197100,2026-08-30T14:54,Non-Urgent (Blue),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T18:30,False
+ED-2026-00176,9998104254,2026-08-30T01:38,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T04:31,False
+ED-2026-00177,9991566902,2026-08-30T18:56,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T21:17,,Awaiting Bed,,True
+ED-2026-00178,9999687814,2026-08-31T10:11,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T11:33,,Awaiting Bed,,True
+ED-2026-00179,9999568440,2026-08-31T07:03,Non-Urgent (Blue),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T08:27,,Awaiting Bed,,True
+ED-2026-00180,9999385036,2026-08-31T17:00,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T18:40,,Awaiting Bed,,False
+ED-2026-00181,9994188321,2026-08-31T16:46,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00182,9992353007,2026-08-31T14:26,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T18:16,False
+ED-2026-00183,9993159662,2026-08-31T01:50,Non-Urgent (Blue),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T04:13,False
+ED-2026-00184,9991199349,2026-08-30T15:47,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T18:55,False
+ED-2026-00185,9995450399,2026-08-30T00:57,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:14,False
+ED-2026-00186,9995446391,2026-08-31T04:26,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T05:50,,Awaiting Bed,,True
+ED-2026-00187,9998060990,2026-08-30T20:30,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T23:27,,Awaiting Bed,,True
+ED-2026-00188,9994885324,2026-08-30T14:18,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T16:46,False
+ED-2026-00189,9998439612,2026-08-30T07:43,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T08:50,,Awaiting Bed,,True
+ED-2026-00190,9992765690,2026-08-31T06:03,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T09:46,False
+ED-2026-00191,9990178550,2026-08-30T00:45,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:24,False
+ED-2026-00192,9995085585,2026-08-29T23:19,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T02:27,False
+ED-2026-00193,9997287711,2026-08-31T09:58,Non-Urgent (Blue),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T13:36,False
+ED-2026-00194,9997641426,2026-08-30T03:13,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T06:37,False
+ED-2026-00195,9998224411,2026-08-31T07:39,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T09:48,False
+ED-2026-00196,9997483669,2026-08-30T08:19,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T11:53,False
+ED-2026-00197,9991703640,2026-08-30T17:27,Immediate (Red),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T20:48,False
+ED-2026-00198,9992642459,2026-08-30T18:26,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T21:06,False
+ED-2026-00199,9998734665,2026-08-30T05:55,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-30T07:15,,Awaiting Bed,,True
+ED-2026-00200,9996527727,2026-08-30T21:44,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T23:41,,Awaiting Bed,,True
+ED-2026-00201,9993352977,2026-08-29T22:45,Standard (Green),Shortness of Breath,Acute Medicine,True,2026-08-30T00:36,,Awaiting Bed,,True
+ED-2026-00202,9998515165,2026-08-30T06:08,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T07:25,,Awaiting Bed,,True
+ED-2026-00203,9992736186,2026-08-30T02:10,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T03:32,,Awaiting Bed,,True
+ED-2026-00204,9993474592,2026-08-30T03:08,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T06:14,False
+ED-2026-00205,9991747990,2026-08-30T02:27,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T05:14,False
+ED-2026-00206,9998698448,2026-08-31T02:07,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T05:39,False
+ED-2026-00207,9991943749,2026-08-31T12:42,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T16:00,False
+ED-2026-00208,9990937494,2026-08-31T15:53,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T19:12,False
+ED-2026-00209,9992359889,2026-08-31T06:52,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T08:52,False
+ED-2026-00210,9990283257,2026-08-31T01:02,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T03:47,False
+ED-2026-00211,9996619923,2026-08-30T01:39,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T02:44,,Awaiting Bed,,True
+ED-2026-00212,9992204788,2026-08-31T01:13,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T03:49,,Awaiting Bed,,True
+ED-2026-00213,9996968502,2026-08-30T12:57,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-30T15:17,,Awaiting Bed,,True
+ED-2026-00214,9995375982,2026-08-31T03:34,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T07:19,False
+ED-2026-00215,9999114474,2026-08-31T11:13,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T14:11,False
+ED-2026-00216,9991147314,2026-08-31T09:10,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T12:04,,Awaiting Bed,,True
+ED-2026-00217,9992434996,2026-08-31T14:35,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T16:54,,Awaiting Bed,,True
+ED-2026-00218,9991571086,2026-08-30T21:54,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T00:27,,Awaiting Bed,,True
+ED-2026-00219,9996312518,2026-08-31T06:04,Non-Urgent (Blue),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T08:28,False
+ED-2026-00220,9992151757,2026-08-30T19:52,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T21:03,,Awaiting Bed,,True
+ED-2026-00221,9991383867,2026-08-31T00:11,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T02:58,,Awaiting Bed,,True
+ED-2026-00222,9994991825,2026-08-31T17:05,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T18:40,,Awaiting Bed,,False
+ED-2026-00223,9998892791,2026-08-30T18:18,Immediate (Red),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T20:46,,Awaiting Bed,,True
+ED-2026-00224,9997062434,2026-08-31T17:02,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T18:42,,Awaiting Bed,,False
+ED-2026-00225,9992755873,2026-08-30T19:56,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T23:42,False
+ED-2026-00226,9990874778,2026-08-30T20:04,Immediate (Red),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T22:29,,Awaiting Bed,,True
+ED-2026-00227,9993800902,2026-08-29T22:16,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T01:12,,Awaiting Bed,,True
+ED-2026-00228,9998258812,2026-08-30T07:03,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T08:38,,Awaiting Bed,,True
+ED-2026-00229,9992077832,2026-08-30T07:00,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T09:29,,Awaiting Bed,,True
+ED-2026-00230,9994864742,2026-08-30T08:13,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-30T11:49,False
+ED-2026-00231,9998721598,2026-08-30T21:57,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T00:34,False
+ED-2026-00232,9995426714,2026-08-30T20:48,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T22:53,False
+ED-2026-00233,9992886846,2026-08-31T08:00,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T10:44,False
+ED-2026-00234,9996976777,2026-08-30T03:13,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T05:25,,Awaiting Bed,,True
+ED-2026-00235,9998126762,2026-08-31T01:19,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-31T03:23,False
+ED-2026-00236,9992536225,2026-08-30T20:50,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T22:58,,Awaiting Bed,,True
+ED-2026-00237,9998910951,2026-08-30T19:20,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T23:07,False
+ED-2026-00238,9999549314,2026-08-30T11:42,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T13:59,False
+ED-2026-00239,9995368757,2026-08-30T15:49,Immediate (Red),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T17:57,False
+ED-2026-00240,9997167007,2026-08-30T10:54,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T12:25,,Awaiting Bed,,True
+ED-2026-00241,9992212039,2026-08-30T03:20,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T04:50,,Awaiting Bed,,True
+ED-2026-00242,9995544504,2026-08-30T22:40,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T01:07,False
+ED-2026-00243,9990204713,2026-08-30T13:19,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T15:03,,Awaiting Bed,,True
+ED-2026-00244,9996360857,2026-08-31T13:05,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T16:59,False
+ED-2026-00245,9998854768,2026-08-31T01:09,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T04:05,,Awaiting Bed,,True
+ED-2026-00246,9997979869,2026-08-30T03:07,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T06:38,False
+ED-2026-00247,9999053815,2026-08-29T21:45,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-29T23:04,,Awaiting Bed,,True
+ED-2026-00248,9999622720,2026-08-31T07:14,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T08:51,,Awaiting Bed,,True
+ED-2026-00249,9997901037,2026-08-29T21:06,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-29T23:23,False
+ED-2026-00250,9991283811,2026-08-31T01:36,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-31T03:42,,Awaiting Bed,,True
+ED-2026-00251,9995298821,2026-08-31T05:48,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T08:32,False
+ED-2026-00252,9998906962,2026-08-30T20:07,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T21:28,,Awaiting Bed,,True
+ED-2026-00253,9991161694,2026-08-31T09:39,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T11:40,False
+ED-2026-00254,9994496301,2026-08-30T10:48,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T13:02,,Awaiting Bed,,True
+ED-2026-00255,9999208835,2026-08-30T06:45,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T08:09,,Awaiting Bed,,True
+ED-2026-00256,9999193307,2026-08-30T22:40,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T01:10,,Awaiting Bed,,True
+ED-2026-00257,9998449677,2026-08-31T16:44,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T17:50,,Awaiting Bed,,False
+ED-2026-00258,9996543544,2026-08-30T23:30,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-31T01:32,False
+ED-2026-00259,9995562367,2026-08-30T11:18,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T14:42,False
+ED-2026-00260,9996385434,2026-08-30T22:49,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T00:46,,Awaiting Bed,,True
+ED-2026-00261,9993602523,2026-08-29T21:51,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-29T23:17,,Awaiting Bed,,True
+ED-2026-00262,9996855678,2026-08-31T10:50,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T12:14,,Awaiting Bed,,True
+ED-2026-00263,9992845821,2026-08-31T10:54,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-31T13:41,False
+ED-2026-00264,9996481573,2026-08-30T01:47,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T04:10,False
+ED-2026-00265,9996619370,2026-08-31T02:33,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T05:35,False
+ED-2026-00266,9999089852,2026-08-30T02:09,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T04:13,,Awaiting Bed,,True
+ED-2026-00267,9990012938,2026-08-29T20:58,Non-Urgent (Blue),Chest Pain,Cardiology,False,,,Discharged,2026-08-30T00:17,False
+ED-2026-00268,9998974062,2026-08-31T16:18,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Under Assessment,,False
+ED-2026-00269,9995379325,2026-08-30T23:57,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T03:28,False
+ED-2026-00270,9998755522,2026-08-31T01:52,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T04:12,False
+ED-2026-00271,9998876923,2026-08-30T15:41,Standard (Green),Chest Pain,Cardiology,True,2026-08-30T17:13,,Awaiting Bed,,True
+ED-2026-00272,9993151610,2026-08-30T16:32,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T18:47,,Awaiting Bed,,True
+ED-2026-00273,9997427866,2026-08-31T05:43,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T07:16,,Awaiting Bed,,True
+ED-2026-00274,9993170119,2026-08-30T05:12,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T07:02,,Awaiting Bed,,True
+ED-2026-00275,9992977701,2026-08-30T19:20,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T22:10,False
+ED-2026-00276,9996044734,2026-08-30T21:48,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T01:38,False
+ED-2026-00277,9993550051,2026-08-31T00:02,Immediate (Red),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T02:53,False
+ED-2026-00278,9995995565,2026-08-31T12:46,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T14:50,,Awaiting Bed,,True
+ED-2026-00279,9999607802,2026-08-30T23:47,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-31T02:51,False
+ED-2026-00280,9998433363,2026-08-31T15:27,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T17:46,,Awaiting Bed,,True
+ED-2026-00281,9997477901,2026-08-30T03:03,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T04:29,,Awaiting Bed,,True
+ED-2026-00282,9994399101,2026-08-29T21:54,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T01:07,False
+ED-2026-00283,9993663956,2026-08-30T02:28,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T04:15,,Awaiting Bed,,True
+ED-2026-00284,9998993237,2026-08-31T17:27,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00285,9992599685,2026-08-30T14:15,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T15:59,,Awaiting Bed,,True
+ED-2026-00286,9992847980,2026-08-31T06:01,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T08:55,False
+ED-2026-00287,9995867567,2026-08-30T03:20,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-30T05:57,,Awaiting Bed,,True
+ED-2026-00288,9990082480,2026-08-31T06:09,Non-Urgent (Blue),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T09:52,False
+ED-2026-00289,9990929629,2026-08-29T22:20,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T00:44,False
+ED-2026-00290,9999253008,2026-08-30T17:47,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T19:48,,Awaiting Bed,,True
+ED-2026-00291,9990202605,2026-08-31T02:03,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T05:41,False
+ED-2026-00292,9991368361,2026-08-31T17:13,Non-Urgent (Blue),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T18:58,,Awaiting Bed,,False
+ED-2026-00293,9997976932,2026-08-30T19:52,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-30T21:24,,Awaiting Bed,,True
+ED-2026-00294,9993241598,2026-08-30T21:25,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T22:52,,Awaiting Bed,,True
+ED-2026-00295,9990836116,2026-08-31T02:24,Immediate (Red),Severe Abdominal Pain,General Surgery,True,2026-08-31T04:18,,Awaiting Bed,,True
+ED-2026-00296,9996119386,2026-08-30T13:01,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T15:41,False
+ED-2026-00297,9993954314,2026-08-31T08:16,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T09:41,,Awaiting Bed,,True
+ED-2026-00298,9999640508,2026-08-31T19:16,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00299,9999469787,2026-08-30T18:04,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T19:04,,Awaiting Bed,,True
+ED-2026-00300,9994254804,2026-08-31T13:49,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T15:15,,Awaiting Bed,,True
+ED-2026-00301,9994990055,2026-08-30T00:56,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-30T01:58,,Awaiting Bed,,True
+ED-2026-00302,9993754803,2026-08-30T01:46,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T04:02,False
+ED-2026-00303,9998563259,2026-08-31T13:38,Non-Urgent (Blue),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T16:59,False
+ED-2026-00304,9992132698,2026-08-30T16:14,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T19:38,False
+ED-2026-00305,9996603342,2026-08-31T10:39,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T12:36,,Awaiting Bed,,True
+ED-2026-00306,9996353427,2026-08-30T18:29,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T21:38,False
+ED-2026-00307,9997924398,2026-08-31T14:05,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T17:09,False
+ED-2026-00308,9997275829,2026-08-31T19:23,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00309,9996133745,2026-08-31T18:00,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T19:12,,Awaiting Bed,,False
+ED-2026-00310,9990066280,2026-08-30T00:08,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T02:05,,Awaiting Bed,,True
+ED-2026-00311,9996143813,2026-08-29T23:03,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T02:57,False
+ED-2026-00312,9992572876,2026-08-31T04:27,Very Urgent (Orange),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T07:08,False
+ED-2026-00313,9990206929,2026-08-31T11:26,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T13:11,,Awaiting Bed,,True
+ED-2026-00314,9998719860,2026-08-31T15:48,Very Urgent (Orange),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T18:31,,Awaiting Bed,,True
+ED-2026-00315,9999980503,2026-08-30T00:53,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:59,False
+ED-2026-00316,9990557292,2026-08-29T23:47,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T02:07,,Awaiting Bed,,True
+ED-2026-00317,9998396565,2026-08-31T09:16,Non-Urgent (Blue),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T12:54,False
+ED-2026-00318,9993206296,2026-08-30T19:51,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-30T22:35,,Awaiting Bed,,True
+ED-2026-00319,9995966654,2026-08-31T18:15,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Under Assessment,,False
+ED-2026-00320,9996821358,2026-08-30T21:17,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-31T00:18,False
+ED-2026-00321,9990288186,2026-08-31T16:05,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T19:53,False
+ED-2026-00322,9994296272,2026-08-30T21:57,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T01:34,False
+ED-2026-00323,9995207753,2026-08-31T05:37,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T07:57,False
+ED-2026-00324,9998398495,2026-08-30T16:12,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T18:21,,Awaiting Bed,,True
+ED-2026-00325,9992999500,2026-08-29T20:22,Immediate (Red),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-29T23:18,,Awaiting Bed,,True
+ED-2026-00326,9995560526,2026-08-30T17:28,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T19:27,,Awaiting Bed,,True
+ED-2026-00327,9993872075,2026-08-30T18:53,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T21:20,False
+ED-2026-00328,9990149410,2026-08-31T05:31,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T07:38,False
+ED-2026-00329,9992315598,2026-08-30T11:31,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T13:49,False
+ED-2026-00330,9990524890,2026-08-30T20:55,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T23:34,False
+ED-2026-00331,9993396877,2026-08-31T15:09,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T18:14,False
+ED-2026-00332,9994205013,2026-08-31T01:21,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T02:30,,Awaiting Bed,,True
+ED-2026-00333,9991790071,2026-08-30T15:08,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T17:50,False
+ED-2026-00334,9998169437,2026-08-31T19:30,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T20:06,,Awaiting Bed,,False
+ED-2026-00335,9997334582,2026-08-30T22:19,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T00:42,,Awaiting Bed,,True
+ED-2026-00336,9999259472,2026-08-30T02:28,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T03:40,,Awaiting Bed,,True
+ED-2026-00337,9999406033,2026-08-29T23:51,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T02:46,False
+ED-2026-00338,9990724474,2026-08-30T01:03,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T03:21,False
+ED-2026-00339,9999885454,2026-08-30T15:06,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T16:15,,Awaiting Bed,,True
+ED-2026-00340,9993633720,2026-08-31T11:44,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-31T14:24,False
+ED-2026-00341,9996412741,2026-08-31T03:26,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-31T05:55,,Awaiting Bed,,True
+ED-2026-00342,9992745045,2026-08-31T02:26,Immediate (Red),Shortness of Breath,Acute Medicine,True,2026-08-31T05:26,,Awaiting Bed,,True
+ED-2026-00343,9998320542,2026-08-31T02:57,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T05:13,,Awaiting Bed,,True
+ED-2026-00344,9992360771,2026-08-30T09:55,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T11:17,,Awaiting Bed,,True
+ED-2026-00345,9991626794,2026-08-30T04:18,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T07:17,False
+ED-2026-00346,9995702592,2026-08-31T16:39,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,False,,,Under Assessment,,False
+ED-2026-00347,9997102509,2026-08-31T15:11,Very Urgent (Orange),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T18:41,False
+ED-2026-00348,9993779415,2026-08-30T16:18,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-30T19:03,,Awaiting Bed,,True
+ED-2026-00349,9992201061,2026-08-31T17:42,Very Urgent (Orange),Severe Abdominal Pain,General Surgery,True,2026-08-31T19:49,,Awaiting Bed,,False
+ED-2026-00350,9994112368,2026-08-30T10:14,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T11:24,,Awaiting Bed,,True
+ED-2026-00351,9994778730,2026-08-31T00:45,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-31T02:32,,Awaiting Bed,,True
+ED-2026-00352,9997265610,2026-08-30T23:44,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T01:15,,Awaiting Bed,,True
+ED-2026-00353,9991811249,2026-08-30T22:34,Immediate (Red),Shortness of Breath,Acute Medicine,True,2026-08-31T00:32,,Awaiting Bed,,True
+ED-2026-00354,9991831789,2026-08-30T15:25,Standard (Green),Chest Pain,Cardiology,False,,,Discharged,2026-08-30T17:47,False
+ED-2026-00355,9997730623,2026-08-31T02:52,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-31T04:04,,Awaiting Bed,,True
+ED-2026-00356,9992254653,2026-08-31T12:24,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T14:26,,Awaiting Bed,,True
+ED-2026-00357,9998792770,2026-08-30T00:06,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T02:40,,Awaiting Bed,,True
+ED-2026-00358,9998210577,2026-08-31T17:34,Very Urgent (Orange),Laceration / Minor Wound,General Surgery,False,,,Under Assessment,,False
+ED-2026-00359,9991342540,2026-08-29T23:45,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T00:48,,Awaiting Bed,,True
+ED-2026-00360,9994193899,2026-08-30T03:36,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T06:31,,Awaiting Bed,,True
+ED-2026-00361,9997481283,2026-08-30T23:28,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T02:21,False
+ED-2026-00362,9994281003,2026-08-30T09:39,Non-Urgent (Blue),Severe Abdominal Pain,General Surgery,True,2026-08-30T11:31,,Awaiting Bed,,True
+ED-2026-00363,9995983613,2026-08-30T22:37,Urgent (Yellow),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T01:06,False
+ED-2026-00364,9997964438,2026-08-29T23:01,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T01:37,False
+ED-2026-00365,9990080747,2026-08-31T05:54,Immediate (Red),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T08:22,False
+ED-2026-00366,9995482088,2026-08-30T19:03,Non-Urgent (Blue),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T22:31,False
+ED-2026-00367,9999962386,2026-08-30T08:37,Non-Urgent (Blue),Chest Pain,Cardiology,True,2026-08-30T11:34,,Awaiting Bed,,True
+ED-2026-00368,9996034798,2026-08-31T11:35,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-31T13:17,,Awaiting Bed,,True
+ED-2026-00369,9999934595,2026-08-29T21:02,Standard (Green),Fever / Sepsis Alert,Acute Medicine,True,2026-08-29T23:40,,Awaiting Bed,,True
+ED-2026-00370,9998883598,2026-08-30T08:57,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T11:23,,Awaiting Bed,,True
+ED-2026-00371,9993868337,2026-08-30T19:08,Standard (Green),Severe Abdominal Pain,General Surgery,False,,,Discharged,2026-08-30T22:14,False
+ED-2026-00372,9993675377,2026-08-31T02:49,Very Urgent (Orange),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T04:21,,Awaiting Bed,,True
+ED-2026-00373,9992901918,2026-08-30T19:13,Standard (Green),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T21:21,False
+ED-2026-00374,9990441294,2026-08-31T17:27,Very Urgent (Orange),Chest Pain,Cardiology,True,2026-08-31T19:19,,Awaiting Bed,,False
+ED-2026-00375,9991841849,2026-08-31T10:01,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T12:08,False
+ED-2026-00376,9991953574,2026-08-31T14:43,Non-Urgent (Blue),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T18:33,False
+ED-2026-00377,9997881494,2026-08-30T08:31,Non-Urgent (Blue),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T11:04,False
+ED-2026-00378,9993641316,2026-08-31T05:20,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T08:00,,Awaiting Bed,,True
+ED-2026-00379,9997130308,2026-08-29T20:39,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-29T22:27,,Awaiting Bed,,True
+ED-2026-00380,9997739345,2026-08-30T10:50,Non-Urgent (Blue),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T13:59,False
+ED-2026-00381,9996584674,2026-08-31T16:06,Very Urgent (Orange),Shortness of Breath,Acute Medicine,True,2026-08-31T17:39,,Awaiting Bed,,False
+ED-2026-00382,9993800570,2026-08-30T19:06,Standard (Green),Shortness of Breath,Acute Medicine,False,,,Discharged,2026-08-30T22:40,False
+ED-2026-00383,9994285300,2026-08-31T09:06,Immediate (Red),Chest Pain,Cardiology,True,2026-08-31T10:23,,Awaiting Bed,,True
+ED-2026-00384,9994007920,2026-08-31T05:35,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T07:36,False
+ED-2026-00385,9992357495,2026-08-30T22:19,Urgent (Yellow),Shortness of Breath,Acute Medicine,True,2026-08-30T23:53,,Awaiting Bed,,True
+ED-2026-00386,9993957763,2026-08-30T01:20,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T03:26,False
+ED-2026-00387,9995318334,2026-08-30T11:20,Urgent (Yellow),Severe Abdominal Pain,General Surgery,True,2026-08-30T12:49,,Awaiting Bed,,True
+ED-2026-00388,9999967787,2026-08-30T10:16,Urgent (Yellow),Fever / Sepsis Alert,Acute Medicine,True,2026-08-30T12:31,,Awaiting Bed,,True
+ED-2026-00389,9998496993,2026-08-31T15:10,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-31T17:24,False
+ED-2026-00390,9994756923,2026-08-30T12:57,Very Urgent (Orange),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T16:29,False
+ED-2026-00391,9999749429,2026-08-30T02:25,Standard (Green),Fever / Sepsis Alert,Acute Medicine,False,,,Discharged,2026-08-30T04:39,False
+ED-2026-00392,9991429999,2026-08-30T04:19,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T05:37,,Awaiting Bed,,True
+ED-2026-00393,9999428479,2026-08-30T12:55,Standard (Green),Laceration / Minor Wound,General Surgery,False,,,Discharged,2026-08-30T15:14,False
+ED-2026-00394,9998059437,2026-08-29T23:15,Urgent (Yellow),Chest Pain,Cardiology,True,2026-08-30T02:14,,Awaiting Bed,,True
+ED-2026-00395,9997813383,2026-08-31T04:11,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T06:16,False
+ED-2026-00396,9993684031,2026-08-31T11:35,Urgent (Yellow),Minor Head Injury,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T15:04,False
+ED-2026-00397,9997874110,2026-08-29T21:58,Urgent (Yellow),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-30T00:30,False
+ED-2026-00398,9996487059,2026-08-31T09:55,Standard (Green),Sprained Ankle,Trauma & Orthopaedics,False,,,Discharged,2026-08-31T12:20,False
+ED-2026-00399,9993668435,2026-08-30T04:21,Urgent (Yellow),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-30T07:06,,Awaiting Bed,,True
+ED-2026-00400,9997671562,2026-08-31T06:46,Standard (Green),Suspected Fracture / Fall,Trauma & Orthopaedics,True,2026-08-31T09:03,,Awaiting Bed,,True

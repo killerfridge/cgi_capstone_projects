@@ -1,0 +1,22 @@
+clinic_id,specialty_code,specialty_name,site_name,weekly_capacity,lead_consultant_code
+CLN-100-1,TFC-100,General Surgery,Royal Infirmary,12,CONS-2633
+CLN-100-2,TFC-100,General Surgery,St Chad's Community Hospital,9,CONS-2544
+CLN-100-3,TFC-100,General Surgery,Northgate Treatment Centre,7,CONS-5204
+CLN-110-1,TFC-110,Trauma & Orthopaedics,Royal Infirmary,7,CONS-3423
+CLN-110-2,TFC-110,Trauma & Orthopaedics,St Chad's Community Hospital,6,CONS-4725
+CLN-110-3,TFC-110,Trauma & Orthopaedics,Northgate Treatment Centre,5,CONS-6517
+CLN-120-1,TFC-120,"ENT (Ear, Nose & Throat)",Royal Infirmary,5,CONS-1640
+CLN-120-2,TFC-120,"ENT (Ear, Nose & Throat)",St Chad's Community Hospital,4,CONS-4614
+CLN-120-3,TFC-120,"ENT (Ear, Nose & Throat)",Northgate Treatment Centre,4,CONS-5605
+CLN-130-1,TFC-130,Ophthalmology,Royal Infirmary,18,CONS-6584
+CLN-130-2,TFC-130,Ophthalmology,St Chad's Community Hospital,14,CONS-5634
+CLN-130-3,TFC-130,Ophthalmology,Northgate Treatment Centre,12,CONS-4340
+CLN-300-1,TFC-300,General Internal Medicine,Royal Infirmary,14,CONS-6198
+CLN-300-2,TFC-300,General Internal Medicine,St Chad's Community Hospital,11,CONS-1697
+CLN-300-3,TFC-300,General Internal Medicine,Northgate Treatment Centre,9,CONS-4006
+CLN-320-1,TFC-320,Cardiology,Royal Infirmary,6,CONS-6965
+CLN-320-2,TFC-320,Cardiology,St Chad's Community Hospital,5,CONS-6615
+CLN-320-3,TFC-320,Cardiology,Northgate Treatment Centre,4,CONS-3598
+CLN-502-1,TFC-502,Gynaecology,Royal Infirmary,9,CONS-5107
+CLN-502-2,TFC-502,Gynaecology,St Chad's Community Hospital,7,CONS-2868
+CLN-502-3,TFC-502,Gynaecology,Northgate Treatment Centre,6,CONS-4445

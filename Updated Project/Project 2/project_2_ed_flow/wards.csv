@@ -1,0 +1,7 @@
+ward_id,ward_name,gender_policy,specialty_type,total_beds
+WARD-AMU,Acute Medical Unit (AMU),Mixed,Acute Medicine,24
+WARD-TRAUMA,Trauma & Orthopaedic Ward,Mixed,Trauma & Orthopaedics,20
+WARD-SURG-M,Surgical Ward (Male),Male,General Surgery,18
+WARD-SURG-F,Surgical Ward (Female),Female,General Surgery,18
+WARD-CARD,Coronary Care Unit,Mixed,Cardiology,12
+WARD-EAU,Emergency Assessment Unit,Mixed,Acute Assessment,16
